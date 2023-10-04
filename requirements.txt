@@ -1,0 +1,17 @@
+numpy
+pandas
+tensorflow
+pyYAML
+matplotlib
+seaborn
+joblib
+dill
+dvc
+Flask
+Flask-Cors
+notebook
+scipy
+tqdm
+config-box
+pathlib
+-e .
