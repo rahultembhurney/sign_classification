@@ -18,10 +18,10 @@ def read_yaml(filepath):
     ARGS:
         filepath (str): Path of YAML file
 
-    Raises:
+    RAISES:
         ValueError: Check logs
 
-    Returns:
+    RETURNS:
         ConfigBox: ConfigBox type
     '''
     try:
