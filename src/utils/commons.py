@@ -45,7 +45,7 @@ def create_directories(filepaths: list):
     ARGS:
         filepaths (list): list of paths of files
 
-    Raises:
+    RAISES:
         Check logs for errors
     '''
     try:
