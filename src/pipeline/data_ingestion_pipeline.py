@@ -1,6 +1,6 @@
 from src.entity.entity_config import DataIngestionConfig
 from src.components.data_ingestion_component import DataIngestionComponent
-from pathlib_1 import Path
+from pathlib import Path
 from src.config.configuration import ConfigurationManager
 from src.utils.logger import logging
 from src.utils.exception import CustomException
@@ -23,4 +23,4 @@ if __name__ == "__main__":
         obj.main()
         logging.info(f"DataIngestionPipeline working successfullly")
     except Exception as e:
-        raise CustomException(e, sys)
+        raise e

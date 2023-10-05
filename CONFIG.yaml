@@ -2,3 +2,8 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
+
+prepare_base_model:
+  root_dir: artifacts/base_model_preparation
+  base_model_path: artifacts/base_model_preparation/base_model/base_model.h5
+  updated_model_path: artifacts/base_model_preparation/updated_model_path/updated_model_path.h5
